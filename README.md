@@ -7,5 +7,9 @@
 ### 联系我
 
 - Github：https://github.com/eddyyuen
-- 公众号：码后闲言 ![](http://img.bugs.red/blog/20200806175440.jpg-fix)
+
+- 公众号：码后闲言 
+
+  ![](http://img.bugs.red/blog/20200806175440.jpg?imageView2/1/w/200/h/200)
+
 - 其他：没有了
