@@ -1,7 +1,7 @@
 baseURL = "https://bugs.red"
 languageCode = "zh-hans"
 defaultContentLanguage = "zh-hans"
-title = "Bugs.Red"
+title = "Bugs.Red | 写能运行的 Bugs "
 theme = "hermit"
 #enableGitInfo = true
 pygmentsCodefences  = true
@@ -35,11 +35,11 @@ googleAnalytics = "UA-174929609-1"
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  description = "bugs.red,博客,go,golang,源码分析,系列教程"
+  description = "bugs.red,博客,go,golang,.Net Core,c#,系列教程"
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = "Bug 在不在，区别在于你是否发现了它<br/>post的代码都能跑"
+  homeSubtitle = "Bug 在不在，区别在于你是否发现了它"
   footerCopyright = ' &#183; <a href="http://www.beian.miit.gov.cn/">粤ICP备15005346号-2</a>'
   # bgImg = ""  # Homepage background-image URL
 
