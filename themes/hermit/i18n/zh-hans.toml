@@ -37,3 +37,6 @@ other = "特色图片"
 
 [ReadingTime]
 other = "，阅读约需 {{ .ReadingTime }} 分钟"
+
+[seeAlso]
+other = "相关推荐"

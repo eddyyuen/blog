@@ -3,7 +3,7 @@ languageCode = "zh-hans"
 defaultContentLanguage = "zh-hans"
 title = "Bugs.Red"
 theme = "hermit"
-# enableGitInfo = true
+#enableGitInfo = true
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
 hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
@@ -14,7 +14,7 @@ googleAnalytics = "UA-174929609-1"
 # disqusShortname = "yourdiscussshortname"
 
 [author]
-  name = "RedBugs"
+  name = "Bugs.Red"
 
 [blackfriday]
   # hrefTargetBlank = true
@@ -39,7 +39,7 @@ googleAnalytics = "UA-174929609-1"
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = "Bug 在不在，区别在于你是否发现了它"
+  homeSubtitle = "Bug 在不在，区别在于你是否发现了它<br/>post的代码都能跑"
   footerCopyright = ' &#183; <a href="http://www.beian.miit.gov.cn/">粤ICP备15005346号-2</a>'
   # bgImg = ""  # Homepage background-image URL
 
@@ -49,7 +49,7 @@ googleAnalytics = "UA-174929609-1"
   # Toggling this option needs to rebuild SCSS, requires Hugo extended version
   justifyContent = false  # Set "text-align: justify" to `.content`.
 
-  relatedPosts = false  # Add a related content section to all single posts page
+  relatedPosts = true  # Add a related content section to all single posts page
 
   code_copy_button = true # Turn on/off the code-copy-button for code-fields
   
