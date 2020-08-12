@@ -39,7 +39,7 @@ googleAnalytics = "UA-174929609-1"
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = "Bug 存不存在，在于你是否发现了它"
+  homeSubtitle = "Bug 存不存在，取决于你是否发现了它"
   footerCopyright = ' &#183; <a href="http://www.beian.miit.gov.cn/">粤ICP备15005346号-2</a>'
   # bgImg = ""  # Homepage background-image URL
 

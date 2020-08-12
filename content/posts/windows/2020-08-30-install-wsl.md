@@ -16,8 +16,11 @@ tags:
 
 以管理员身份打开 PowerShell ：
 
-```bash
+``` csharp  {linenos=inline,hl_lines=[2,3]}
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+all
+adf
+
 ```
 
 ###  更新到 WSL 2（可选）

@@ -1,7 +1,7 @@
-@import "predefined.scss";
-@import "normalize.scss";
-@import "syntax.scss";
-@import "animate.scss";
+@import "_predefined.scss";
+@import "_normalize.scss";
+@import "_syntax.scss";
+@import "_animate.scss";
 
 /* Webkit Scrollbar Customize */
 ::-webkit-scrollbar {
@@ -836,5 +836,5 @@ hr.post-end {
 }
 
 .utterances {
-  max-width: 900px;
+  max-width: 901px;
 }
