@@ -166,11 +166,11 @@ config = {
 var docEditor = new DocsAPI.DocEditor("placeholder", config);
 ```
 
-- 最终效果
+### 最终效果
 
-  ![image-20200812173704709](http://img.bugs.red/blog/20200812173704.png)
+![image-20200812173704709](http://img.bugs.red/blog/20200812173704.png)
 
-
+### 相关链接
 
 [ONLYOFFICE 社区版下载地址](https://www.onlyoffice.com/zh/download.aspx)
 
