@@ -16,7 +16,7 @@ tags:
 
 以管理员身份打开 PowerShell ：
 
-``` bash
+``` powershell
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 
 ```
@@ -29,7 +29,7 @@ Windows 10  Version 2004 以上的版本才能安装 WSL 2。可以运行 winver
 	下载 [更新工具](https://go.microsoft.com/fwlink/?LinkId=691209) 进行更新
 
 2. 启用“虚拟机平台”可选组件
-```
+``` powershell
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
 3. 升级 WSL2 Linux 内核
@@ -38,7 +38,7 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 
 4. 将 WSL 2 设置为默认版本
 
-```
+``` powershell
 wsl --set-default-version 2	
 ```
 ### 安装 Linux
