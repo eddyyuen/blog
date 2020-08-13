@@ -78,6 +78,7 @@ import (
 	"net/http"
 	"os"
 	"os/exec"
+	"path/filepath"
 	"strings"
 )
 
@@ -103,16 +104,17 @@ func main() {
 		}
 		switch payload.(type) {
 		case github.IssueCommentPayload:
-			IssueComment := payload.(github.IssueCommentPayload)
+			//IssueComment := payload.(github.IssueCommentPayload)
 			// todo 发送回复的通知
-			fmt.Printf("%+v", IssueComment)
+			//fmt.Printf("%+v", IssueComment)
+			fmt.Printf("github.IssueComment")
 			_, _ = w.Write([]byte("ok!"))
 
 		case github.PushPayload:
-			pushRequest := payload.(github.PushPayload)
+			//pushRequest := payload.(github.PushPayload)
 			// todo pull github & run hugo.exe
 			runCommand()
-			fmt.Printf("%+v", pushRequest)
+			fmt.Printf("github.PushPayload")
 			_, _ = w.Write([]byte("ok!"))
 		default:
 			_, _ = w.Write([]byte("NOT HANDLER!"))
@@ -123,8 +125,10 @@ func main() {
 }
 
 func runCommand() {
+	dir, _ := os.Executable()
+	exPath := filepath.Dir(dir)
 	//读取文件的信息
-	bytes, err := ioutil.ReadFile(conf)
+	bytes, err := ioutil.ReadFile(exPath+"\\"+conf)
 	if err != nil {
 		fmt.Println(err.Error())
 		return
@@ -195,6 +199,7 @@ func execCommand(commandName string, params []string) bool {
 	cmd.Wait()
 	return true
 }
+
 
 ```
 
