@@ -16,10 +16,8 @@ tags:
 
 以管理员身份打开 PowerShell ：
 
-``` csharp  {linenos=inline,hl_lines=[2,3]}
+``` bash
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
-all
-adf
 
 ```
 
