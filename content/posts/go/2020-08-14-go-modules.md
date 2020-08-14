@@ -5,7 +5,8 @@ draft: false
 toc: false
 images:
 tags: 
-  - untagged
+  - golang
+  - gomodules
 ---
 很久没有用 Go 写代码了。以前 Go 和 Python 的包管理是我最讨厌的事。 Go 总有很多包无法下载，需要科学上网，或者自己下载替换。Python 要想用好包管理就要装虚拟环境，麻烦！
 现在 Go Modules 出来了，配合 GOPROXY 简直神器！
