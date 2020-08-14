@@ -12,7 +12,7 @@ tags:
 现在 Go Modules 出来了，配合 GOPROXY 简直神器！
 具体怎么用不写了，自行 Google 吧。
 
-值得一提的是，我不是用 Goland 开发的嘛。众所周知的原因它过期了。于是我来[这里](https://zhile.io)看了看，又去[公众号](https://zhile.io/2018/08/25/jetbrains-license-server-crack.html)看了看，接着又发了个"?"到后台，你猜发生了什么事？
+值得一提的是，我不是用 Goland 开发的嘛。众所周知的原因它过期了。于是我来[这里](https://zhile.io)看了看，又去[公众号](https://zhile.io/2018/08/25/jetbrains-license-server-crack.html)看了看，接着又发了个“?” 到后台，你猜发生了什么事？
 
 如果有什么不懂的，记住，百度知道。
 
